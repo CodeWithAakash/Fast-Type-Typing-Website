@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="typing.css">
+    <title>FastType - Typing Test</title>
+</head>
+
+<body>
+    <div class="main-result-div" id="main-result-div">
+        <div class="result">
+            <div class="result-div">
+                <h1>FastType</h1>
+                <p>Typing Speed Test.</p>
+                <h2>Result :</h2>
+                <h1 id="message"></h1>
+                <div class="result-box">
+                    <img src="typing.jpg" alt="">
+                    <div class="speed">
+                        <h2>Your Speed : <br>  <span id="showspeedspan"></span> WPM</h2>
+                        <h2>Accuracy : <br> <span id="showaccuracyspan"></span> %</h2>
+                        <a href="#" id="reset-btn" accesskey="k" title="alt + K">Start New Test</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="typing-quote-div">
+        <div class="homepage">
+            <a href="index.html">HomePage</a>
+        </div>
+        <div class="typing-div">
+            <div class="countdown" id="countdown"></div>
+            <div class="timer" id="timer"></div>
+            <div class="typing-quote-section">
+                <div class="quote-display" id="quote-display"></div>
+                <textarea name="" id="textarea" cols="30" rows="10" spellcheck="false"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
